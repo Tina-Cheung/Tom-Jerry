@@ -1,0 +1,621 @@
+<style type="text/css">
+*{margin: 0px;padding: 0px;}
+@charset "utf-8";
+@import url("animation.css");
+
+.content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+.page{
+	position: relative;
+	overflow: hidden;
+}
+.page img{
+	position: absolute;
+}
+/*第一页*/
+.m1{
+	top: 9%;
+	left: 9%;
+	width: 90px;
+	height: 90px;
+	animation:  myao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center top; 
+}
+
+.s1{
+	top: 20%;
+	right: 5%;
+	width: 70px;
+	height: 70px;
+	animation: syao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom; 
+}
+
+
+.tu{
+	top: 34%;
+	width: 100%;
+	height: 300px;
+	animation: fadeinB 2s ease-in;
+}
+	
+.text{
+	top: 8%;
+	left: 26%;
+	width: 200px;
+	height: 170px;
+	animation: bounce 3s ease-in;
+}
+.shang{
+	width: 100%;
+	height: 50%;
+}
+.shang1{
+	width: 100%;
+	height: 45%;
+}
+.let{
+	top:89%;
+	left: 34%;
+	width: 120px;
+	height: 25px;
+	animation: fadein 3s ease-in-out;
+}
+.xin1{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.xia1{
+	top:85%;
+	width: 100%;
+}
+.xia{
+	top:80%;
+	width: 100%;
+}
+
+
+
+/*2*/
+.dong{
+	top:5%;
+	left: 13%;
+	width: 140px;
+	height: 120px;
+	animation: bounceinL 3s ease-in-out;
+}
+
+.xin12{
+	left: 13%;
+	top:25%;
+	width: 75%;
+}
+.xia2{
+	top:75%;
+	width: 100%;
+}
+.xia20{
+	top:50%;
+	width: 100%;	
+}
+.xin122{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.next{
+	top:90%;
+	left: 42%;
+	width: 60px;
+	height: 20px;
+}
+.wen{
+	width: 60%;
+	height: 45%;
+	left: 20%;
+	top: 30%;
+	animation: fadeinL 2s ease-in-out;
+}
+.m2{
+	top: 18%;
+	left: 65%;
+	width: 150px;
+	height: 90px; 
+	animation: ring 3s ease-in;
+}
+.s2p{
+	top: 68%;
+	left: 4%;
+	width: 65px;
+	height: 65px; 
+	animation: ring 3s ease-out;
+}
+/*3*/
+
+
+.xia32{
+	height: 60%;
+	width: 75%;
+	
+}
+.xia31{
+	bottom: 0;
+	right: 0;
+	width: 80%;
+	height: 55%;
+	
+}
+.jue{
+	right: 10%;
+	top:10%;
+	height: 25%;
+	animation: bounceinR 2s linear;
+
+}
+.m4{
+	width: 65%;
+	top:36%;
+	left: 4%;
+	animation:gyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center top; 
+}
+.s4{
+	width: 90px;
+	height: 120px;
+	right: 5%;
+	top: 48%;
+	animation:gyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom; 
+}
+.tom{
+	width: 80px;
+	height: 28px;
+	top: 35%;
+	left: 38%;
+	animation: ring 4s ease-out;
+	animation-iteration-count: infinite;
+}
+.jt{
+	height: 30%;
+	width: 52%;
+	left: 5%;
+	top:4%;
+	animation: bouncein 2s ease-in;
+	
+}
+.ttt{
+	height: 25%;
+	width: 53%;
+	right: 5%;
+	top:65%;
+	animation: bouncein 2s ease-in;
+}
+.jerry{
+	height: 28px;
+	width: 100px;
+	top: 58%;
+	right: 30%;
+	animation: ring 4s ease-out;
+	animation-iteration-count: infinite;
+}
+.nex{
+	top:90%;
+	left: 42%;
+	width: 60px;
+	height: 20px;
+}
+.xin34{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.xin33{
+	height: 50px;
+	width: 15px;
+	top:90%;
+	left: 5%;
+}
+/*4*/
+.xia41{
+	height: 60%;
+	width: 75%;
+	right: 0%;
+}
+.xia4{
+	bottom: 0;
+	
+	width: 86%;
+	height: 57%;
+}
+.jue4{
+	left: 10%;
+	top:8%;
+	width: 8%;
+	height: 25%;
+	animation: bounceinL 2s linear;
+}
+.T1{
+	width: 100px;
+	height: 119px;
+	right: 18%;
+	top:70%;
+	animation:lyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center top; 
+}
+.T3{
+	width: 190px;
+	height: 121px;
+	right: 0;
+	top: 9%;
+	animation:gyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom; 
+}
+.T22{
+	bottom:4%;
+	width: 400px;
+	height: 670px;
+	animation: gyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom; 
+}
+.T4{
+	height: 48px;
+	width: 110px;
+	top: 63%;
+	right: 36%;
+	animation: ring 4s ease-out;
+	animation-iteration-count: infinite;
+}
+.T5{
+	height: 45px;
+	width: 160px;
+	top: 2%;
+	left: 37%;
+	animation: ring 4s linear;
+	animation-iteration-count: infinite;
+}
+.T6{
+	height: 50px;
+	width: 75px;
+	top: 42%;
+	right: 38%;
+	animation: ring 4s ease-in;
+	animation-iteration-count: infinite;
+}
+.T7{
+	height: 13%;
+	width: 50%;
+	right: 5%;
+	top:28%;
+	animation: bouncein 2s ease-in;
+}
+.T8{
+	height: 9%;
+	width: 58%;
+	right: 13%;
+	top:49%;
+	animation: bouncein 2s ease-in;
+}
+.T9{
+	height: 14%;
+	width: 42%;
+	left: 5%;
+	top:72%;
+	animation: bouncein 2s ease-in;
+}
+.T10{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.T12{
+	top:90%;
+	left: 42%;
+	width: 60px;
+	height: 20px;
+}
+.T11{
+	height: 50px;
+	width: 15px;
+	top:90%;
+	right: 5%;
+}
+/*5*/
+.bg5{
+	width: 100%;
+	height: 100%;
+}
+.F1{
+	width: 82%;
+	height: 37%;
+	top:25%;
+	left: 9%;
+}
+.F2{
+	width: 41%;
+	height: 12%;
+	right: 7%;
+	top:9%;
+	animation: bounceinR 2s ease-in;
+}
+.F3{
+	top:65%;
+	left: 27.5%;
+	width: 41%;
+	height: 5%;
+	animation: bounce 3s ease-in;
+}
+.F4{
+	width: 25%;
+	height: 16%;
+	right: 5%;
+	top:68%;
+	animation:lyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+.F5{
+	width: 61%;
+	height: 26%;
+	left: 1%;
+	top:10%;
+	animation:gyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center top; 
+}
+.F6{
+	top:89%;
+	left: 36%;
+	width: 110px;
+	height: 20px;
+
+}
+.F7{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+
+}
+.SP{
+	left: 16%;
+	width: 70%;
+	height: 70%;
+	top: 8%;
+	position: absolute;
+	z-index: 999;
+	
+}
+/*6*/
+#d1{
+	position: relative;
+	top: 60%;
+	left: 30%;
+	z-index: 9999;
+	
+}
+.bg6{
+	width: 100%;
+	height: 100%;
+}
+.S1{
+	top:89.5%;
+	left: 38%;
+	width: 90px;
+	height: 20px;
+}
+.S2{
+	top:94%;
+	left: 45%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.S3{
+	width: 82%;
+	height: 46.5%;
+	top:29%;
+	left: 9%;
+}
+.S4{
+	bottom: 22%;
+	left: 32%;
+	width: 140px;
+	height: 40px;
+}
+.S5{
+	width: 170px;
+	height: 170px;
+	top:4%;
+	left: 29.5%;
+	animation: bounce 3s ease-in;
+}
+.S6{
+	width: 18%;
+	height: 12%;
+	left: 7%;
+	top:20%;
+	animation:lyyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+.S7{
+	width: 18%;
+	height: 12%;
+	right: 8%;
+	top:20%;
+	animation:lyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+/*7cw*/
+.bg7{
+	width: 100%;
+	height: 100%;
+}
+.wenzi7{
+	top:14%;
+	left: 19%;
+	width: 260px;
+	height: 120px;
+	animation: ring 2s linear;
+	animation-iteration-count: infinite;
+}
+
+
+.X3{
+	bottom:14%;
+	left: 15%;
+	height: 300px;
+	width: 220px;
+}
+.X4{
+	width: 180px;
+	height: 170px;
+	top:8%;
+	left: 30%;
+	animation:bounce 2s linear;
+	animation-iteration-count: infinite;
+}
+
+.X6{
+	width: 20%;
+	height: 20%;
+	left: 42%;
+	top:33%;
+	animation:lyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+/*7zq*/
+.Y1{
+	top:89%;
+	left: 39%;
+	width: 98px;
+	height: 22px;
+}
+.Y2{
+	top:94%;
+	left: 47.5%;
+	width: 30px;
+	height: 30px;
+	animation: aa 1s linear;
+	animation-iteration-count: infinite;
+}
+.Y3{
+	bottom:21%;
+	left: 10%;
+	height: 225px;
+	width: 205px;
+}
+.Y4{
+	width: 260px;
+	height: 180px;
+	top:7%;
+	left: 20%;
+	animation:bounce 2s linear;
+	animation-iteration-count: infinite;
+}
+.Y5{
+	width: 400px;
+	height: 650px;
+	right: 2%;
+	top:9%;
+}
+.Y6{
+	width: 19%;
+	height: 19%;
+	left: 43%;
+	top:33%;
+	animation:lyao 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+/* 第八页 */
+.biao{
+	top:8%;
+	left: 17%;
+	width:72%;
+	height: 42%;
+	animation:rotatein 2s linear;
+}
+.y{
+	bottom: 0%;
+	width: 100%;
+	height: 47%;
+}
+.END{
+	bottom: 5%;
+	left: 47%;
+	height: 21px;
+	width: 37px;
+	animation:ring 2s linear;
+	transform-origin: center bottom;
+}
+.s2{
+	bottom: 5%;
+	left: 10%;
+	height: 60px;
+	width: 330px;
+}
+.rt{
+	bottom: 11%;
+	left: 30%;
+	height: 101px;
+	width: 180px;
+	animation:ring 2s linear;
+	transform-origin: center bottom;
+}
+.tt{
+	bottom: 29%;
+	left: 21%;
+	height: 85px;
+	width: 240px;
+	animation:ring 2s linear;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+}
+
+
+.musicBtn{
+	position: fixed;
+	top: 13px;
+	right: 13px;
+	width: 40px;
+	height: 40px;
+}
+.btnrotate{
+	animation: btn_rotate 2s infinite linear;
+}
+@keyframes btn_rotate{
+	from{}
+	to{transform: rotate(360deg) ;}
+}
+
+</style>
